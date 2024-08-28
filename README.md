@@ -20,8 +20,8 @@ Practice your layout skills with this article preview component. There's lots of
  
 ### Links
 
-- Solution URL: [Repo](https://github.com/sakthivel155/four-card-feature-section-master)
-- Live Site URL: [Live Demo](https://sakthivel155.github.io/four-card-feature-section-master/)
+- Solution URL: [Repo](https://github.com/sakthivel155/article-preview-component-master)
+- Live Site URL: [Live Demo](https://sakthivel155.github.io/article-preview-component-master/)
 
 ## My process
 

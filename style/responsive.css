@@ -2,7 +2,7 @@
     .article-card{
         flex-direction: row;
         
-        max-width: 50%;
+        max-width: 60em;
         
     }
     .article-content{

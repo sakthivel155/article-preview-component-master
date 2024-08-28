@@ -1,0 +1,16 @@
+.title-x{
+    color: var(--c-Very-Dark-Grayish-Blue);
+    font-size: 1.1rem;
+}
+.title-m{
+    color: var(--c-Very-Dark-Grayish-Blue);
+    font-weight: 700;
+}
+.content-x{
+    font-size: .85rem;
+}
+.share-text{
+    font-size: .9rem;
+    letter-spacing: 2px;
+    color: var(--c-Grayish-Blue);
+}

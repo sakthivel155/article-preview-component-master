@@ -1,0 +1,106 @@
+.article-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--c-Light-Grayish-Blue);
+}
+.article-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    border-radius: 10px;
+    background-color: white;
+}
+.article-img{
+    max-width:100%;
+    height:15em;
+}
+.article-img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    object-fit: cover;
+}
+.article-content{
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+    max-width: 80%;
+    margin: 2.5em auto;
+}
+.article-profile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+}
+.article-user-img{
+    max-width: 35px;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+.share-btn {
+    position: absolute;
+    right: 0;
+    display: grid;
+    place-content: center;
+    margin-left: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: var(--c-Light-Grayish-Blue);
+    z-index: 1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .share-btn .share-icon {
+    fill: var(--c-Desaturated-Dark-Blue);
+    transition: fill 0.3s ease;
+  }
+  
+  .share-btn:hover {
+    background-color: var(--c-Desaturated-Dark-Blue);
+  }
+  
+  .share-btn:hover .share-icon {
+    fill: var(--c-Light-Grayish-Blue);
+  }
+
+
+
+.share-items-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--c-Very-Dark-Grayish-Blue);
+    transition: all .5s;
+
+}
+.bit-triangle{
+    display: none;
+}
+.share-items{
+    display:flex; /* show when share click */
+    align-items: center;
+    gap: 1.5em;
+    max-width: 80%;
+    margin: 0 auto;
+    height:0px;
+    overflow: hidden;
+}
+.share-item-animation{
+    height: 7em;
+    transition: all .5s;
+}
+
+
+.d-flex{
+    display: flex;
+} 

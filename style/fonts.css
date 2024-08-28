@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Manrope;
+    src: url('../assets/fonts/Manrope/static/Manrope-Regular.ttf');
+    font-display: swap;
+}
+
+:root{
+    --font-manrope: Manrope;
+}

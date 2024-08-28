@@ -1,0 +1,55 @@
+@media screen and (min-width:1024px) {
+    .article-card{
+        flex-direction: row;
+        
+        max-width: 50%;
+        
+    }
+    .article-content{
+        margin: 3.2em;
+        width: 100%;
+
+    }
+    .article-img{
+        height:auto;
+    }
+    .article-img img{
+        max-width: 52em;
+        object-position: 0;
+        border-bottom-left-radius:10px;
+        border-top-right-radius:0px;
+    }
+    .article-profile{
+        padding-top: 0;
+    }
+    .title-x{
+        font-size: 1.3rem;
+    }
+
+     .share-items-container{
+        bottom: 50px;
+        right: -50px;
+        width:30%;
+        border-radius: 10px;
+        height: max-content;
+        opacity: 0%;
+        transition: all .5s;
+    }
+    .bit-triangle{
+        position: absolute;
+        display: block;
+        top:55px;
+        left: 110px;
+        width: 20px;
+        rotate:90deg;
+    }
+    .share-items{
+        height: 5em;
+    } 
+    .share-item-animation{
+        bottom: 95px;
+        opacity: 100%;
+        transition: all .5s;
+    }
+
+}
